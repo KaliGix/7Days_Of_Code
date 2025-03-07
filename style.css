@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+body{
+    background-color: #dd5858;
+    font-family: Arial, sans-serif;
+    margin-right: auto;
+}
