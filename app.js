@@ -6,18 +6,38 @@ let booleanValue = false;
 //Numbers values
 const numberZero = 0;
 const numberOne = '1';
-
+const numberTen = 10;
+const numberTherty = 30;
 
 //string values
 const emptyString = '';
 const stringZero = '0';
 const stringOne = '1';
-
+const stringTen = '10';
+const stringThirty = '30';
 
 //null and undefined values
 const nullValue = null;
 const undefinedValue = undefined;
 
+
+if(numberOne == stringOne){
+    console.log('The variables numberOne and stringOne have the same value, but different types');
+} else {
+    console.log('The variable numberOne and stringOne have not the same value');
+}
+
+if(numberTherty === stringThirty){
+    console.log('The variables numberTherty and stringThirty have the same value and the same type');
+} else {
+    console.log('The variables numberTherty and stringThirty have no the same value');
+}
+
+if(numberTen == stringTen){
+    console.log('The variables numberTen and stringTen have the same value, but different types');
+} else {
+    console.log('The variables numberTen and stringTen have no the same value');
+}
 
 //comparing boolean and number values
 if(booleanValue === numberZero){
