@@ -15,19 +15,19 @@ function validateOption () {
   switch (option) {
     case 1:
       getAnswer(option)
-      break
+      break;
 
     case 2:
       getAnswer(option)
-      break
+      break;
 
     default: //if the user enter a number different from 1 or 2 will show this message
     //we call the function again to ask the user to enter a valid option
       alert('Invalid option selected')
-      return validateOption()
-      break
+      return validateOption();
+      break;
   }
-  return
+  return;
 }
 
 function getAnswer (optionSelected) {
@@ -75,7 +75,7 @@ function getAnswer (optionSelected) {
           : '¡Oh, qué lástima! ¿Has intentado aprender otros lenguajes?'
       );
 
-      return
+      return;
     } else {
       //if the user enter a number different from 1 or 2 will show this message
       alert('Invalid option selected');
